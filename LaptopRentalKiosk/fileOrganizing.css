@@ -1,0 +1,37 @@
+
+/*
+LaptopRentalKiosk/
+│── LaptopRentalKiosk/     # Django project settings folder
+│   ├── settings.py        # Django settings
+│   ├── urls.py            # Main URL routing
+│   ├── wsgi.py            # Web Server Gateway Interface
+│── rental/                # Django app for laptop rentals
+│   ├── migrations/        # Database migrations
+│   ├── models.py          # Database models (OOP classes)
+│   ├── views.py           # Business logic (OOP methods)
+│   ├── urls.py            # App-specific URL routing
+│   ├── serializers.py     # API serializers for djangoo
+│   ├── forms.py           # Django forms 
+│   ├── admin.py           # Admin panel registration
+│── templates/             # HTML templates for using Django frontend but will might use some other javascript frame work
+│── static/                # Static files (CSS, JS, images)
+│── manage.py              # Django CLI manager
+│── db.sqlite3             # SQLite database
+
+
+place each OOP Component accordigly 
+✅ Abstract Base Classes (Abstraction) → models.py
+
+Use Django’s models.Model to define an abstract class for common properties.
+✅ Child Classes (Inheritance) → models.py
+
+Create Laptop, Student, and RentalTransaction as subclasses of the abstract class.
+✅ Business Logic (Encapsulation) → views.py
+
+Methods for renting, returning laptops, and calculating fines.
+✅ Different Laptop or User Types (Polymorphism) → models.py
+
+like MacBookLaptop, WindowsLaptop, FacultyRental, StudentRental.
+
+
+*/
