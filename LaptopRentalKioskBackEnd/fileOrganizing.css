@@ -34,4 +34,25 @@ Methods for renting, returning laptops, and calculating fines.
 like MacBookLaptop, WindowsLaptop, FacultyRental, StudentRental.
 
 
+
+
+# Base class and common classes for all Object Oriented structure will be added here. 
+
+# LaptopRental ( this will be a base class which can have ... I will use abstract principle here 
+# private :- student_info class, laptop_info and laptop_status, student_status
+# student_ID , laptop_ID, laptop_status(rented YES/NO), student_status (has to pay fine YES/NO)
+# Display :- student_ID, Laptop_ID , loan_due_date&time, 
+
+#PRE-LOAN
+# Case = 1 Pre loan student should be askey to press loan a laptop button, then they need to enter or scan their ID...
+# then ID will be sent to ..?.. 
+# if status okay ... 
+#if statuss not okay... 
+#case = 2 if student status okay, again we will send to ask for available laptop. we will indicate green for available laptop , red for return , blue charging and yellow laptop is out 
+# so here their will not be if not laptop available no case.. 
+
+#AFTER LOAN 
+# after this will be pretty much display or output which will be due time of the laptop to return the student ID and name 
+
+
 */
